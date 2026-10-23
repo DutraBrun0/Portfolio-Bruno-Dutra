@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Bruno Moreira Dutra — Desenvolvedor back-end</title>
+<meta name="description" data-i18n="meta.description" content="Portfólio de Bruno Moreira Dutra, estudante de Engenharia de Software em São Paulo. Back-end com Python, Flask, SQL e MySQL. Projetos, currículo e contato.">
+<meta name="author" content="Bruno Moreira Dutra">
+<meta name="theme-color" content="#0B0F14">
+<link rel="canonical" href="https://dutrabrun0.github.io/portfolio/">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Bruno Moreira Dutra">
+<meta property="og:title" content="Bruno Moreira Dutra — Desenvolvedor back-end">
+<meta property="og:description" data-i18n="meta.description" content="Estudante de Engenharia de Software em São Paulo. Back-end com Python, Flask, SQL e MySQL.">
+<meta property="og:url" content="https://dutrabrun0.github.io/portfolio/">
+<meta property="og:image" content="https://dutrabrun0.github.io/portfolio/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Bruno Moreira Dutra — Desenvolvedor back-end">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Silkscreen:wght@400;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Bruno Moreira Dutra",
+  "jobTitle": "Desenvolvedor back-end em formação",
+  "email": "mailto:bruno.dutra5546@gmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "São Paulo", "addressRegion": "SP", "addressCountry": "BR" },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Universidade Cidade de São Paulo (UNICID)" },
+    { "@type": "EducationalOrganization", "name": "SENAI São Paulo" }
+  ],
+  "knowsAbout": ["Python", "Flask", "SQL", "MySQL", "Git", "JavaScript"],
+  "url": "https://dutrabrun0.github.io/portfolio/",
+  "sameAs": ["https://github.com/DutraBrun0", "https://www.linkedin.com/in/brunodutraaa"]
+}
+</script>
+</head>
+
+<body>
+<div class="scanlines" aria-hidden="true"></div>
+
+<div id="intro" class="intro" hidden>
+  <div class="intro__frame">
+    <p class="intro__kicker" data-i18n="intro.kicker">Portfólio</p>
+    <h1 class="intro__name" aria-hidden="true">
+      <span>BRUNO</span>
+      <span>DUTRA</span>
+    </h1>
+    <p class="intro__role" data-i18n="intro.role">Desenvolvedor back-end</p>
+    <button id="intro-start" class="intro__start" type="button">
+      <span class="intro__blink" data-i18n="intro.start">Pressione START</span>
+    </button>
+    <button id="intro-skip" class="intro__skip" type="button" data-i18n="intro.skip">Pular intro</button>
+  </div>
+  <div id="dissolve" class="dissolve" aria-hidden="true"></div>
+</div>
+
+<a class="skip-link" href="#inicio" data-i18n="a11y.skipToContent">Ir para o conteúdo</a>
+
+<!--Barra superior -->
+<header class="topbar">
+  <a class="brand" href="#inicio">
+    <span class="brand__badge" aria-hidden="true">▶</span>
+    <span class="brand__name">Bruno Dutra</span>
+  </a>
+
+  <div class="topbar__actions">
+    <div class="lang" role="group" aria-label="Idioma / Language">
+      <button type="button" class="lang__btn is-on" data-lang="pt" aria-pressed="true" lang="pt-BR">PT</button>
+      <button type="button" class="lang__btn" data-lang="en" aria-pressed="false" lang="en">EN</button>
+    </div>
+    <a class="btn btn--amber" href="assets/cv/Curriculo-Bruno-Dutra.pdf" download>
+      <span aria-hidden="true">▼</span>
+      <span data-i18n="cta.cv">Baixar CV</span>
+    </a>
+  </div>
+</header>
+
+<!--Menu lateral-->
+<nav class="rail" id="rail" aria-label="Seções">
+  <p class="rail__title" data-i18n="nav.title">Menu</p>
+  <ul class="rail__list">
+    <li><a href="#inicio"  class="rail__link is-current"><span class="rail__cursor" aria-hidden="true">▶</span><span data-i18n="nav.home">Início</span></a></li>
+    <li><a href="#sobre"   class="rail__link"><span class="rail__cursor" aria-hidden="true">▶</span><span data-i18n="nav.about">Sobre</span></a></li>
+    <li><a href="#skills"  class="rail__link"><span class="rail__cursor" aria-hidden="true">▶</span><span data-i18n="nav.skills">Atributos</span></a></li>
+    <li><a href="#missoes" class="rail__link"><span class="rail__cursor" aria-hidden="true">▶</span><span data-i18n="nav.projects">Missões</span></a></li>
+    <li><a href="#jornada" class="rail__link"><span class="rail__cursor" aria-hidden="true">▶</span><span data-i18n="nav.journey">Jornada</span></a></li>
+    <li><a href="#contato" class="rail__link"><span class="rail__cursor" aria-hidden="true">▶</span><span data-i18n="nav.contact">Contato</span></a></li>
+  </ul>
+</nav>
+
+<main id="conteudo">
+
+  <!-- Fase 1 -->
+  <section class="section hero" id="inicio" tabindex="-1" aria-labelledby="hero-title">
+    <p class="phase"><span class="phase__num" data-stage="1">Fase 1</span><span class="phase__label" data-i18n="phase.home">Início</span></p>
+
+    <h1 class="hero__name" id="hero-title">
+      <span class="hero__line">Bruno</span>
+      <span class="hero__line">Moreira Dutra</span>
+    </h1>
+    <p class="hero__role" data-i18n="hero.role">Desenvolvedor back-end em formação · Python · Flask · SQL</p>
+
+    <div class="dialogue panel">
+      <p class="dialogue__who">Bruno</p>
+      <p class="dialogue__text" id="hero-dialogue" data-i18n="hero.pitch">Estudante de Engenharia de Software em São Paulo, no 2º semestre. Construo sistemas web e APIs com Python, Flask e MySQL, e estudo bancos de dados a fundo. Procuro meu primeiro estágio em tecnologia.</p>
+      <span class="dialogue__next" aria-hidden="true">▼</span>
+    </div>
+
+    <div class="hero__cta">
+      <a class="btn btn--green" href="#missoes" data-i18n="cta.projects">Ver missões</a>
+      <a class="btn btn--ghost" href="#contato" data-i18n="cta.contact">Falar comigo</a>
+    </div>
+
+    <ul class="hero__facts">
+      <li><span class="fact__k" data-i18n="fact.location">Local</span><span class="fact__v">São Paulo, BR</span></li>
+      <li><span class="fact__k" data-i18n="fact.focus">Foco</span><span class="fact__v" data-i18n="fact.focusValue">Back-end &amp; dados</span></li>
+      <li><span class="fact__k" data-i18n="fact.seeking">Busco</span><span class="fact__v" data-i18n="fact.seekingValue">Estágio</span></li>
+    </ul>
+  </section>
+
+  <!-- Fase 2  -->
+  <section class="section" id="sobre" tabindex="-1" aria-labelledby="sobre-title">
+    <p class="phase"><span class="phase__num" data-stage="2">Fase 2</span><span class="phase__label" data-i18n="phase.about">Sobre</span></p>
+    <h2 class="section__title" id="sobre-title" data-i18n="about.title">Quem está do outro lado do teclado</h2>
+
+    <div class="about">
+      <div class="about__text">
+        <p data-i18n="about.p1">Minha trajetória na tecnologia começou no curso técnico em Análise e Desenvolvimento de Sistemas do SENAI, concluído em 2025. Ali tive contato com as várias frentes do desenvolvimento e descobri que o que me prende é o que acontece atrás da tela: modelar dados, escrever regras de negócio e fazer o sistema responder certo.</p>
+        <p data-i18n="about.p2">Hoje curso Engenharia de Software na UNICID e direciono meus estudos para back-end com Python, Flask e bancos de dados relacionais. Aprendo construindo: cada conceito novo vira um projeto pequeno que eu levo até funcionar de ponta a ponta.</p>
+        <p data-i18n="about.p3">Em paralelo, trabalho como Jovem Aprendiz na Tragetta, onde lido com rotinas administrativas, relatórios e organização de informação — e é de onde vem boa parte da minha disciplina com prazo e detalhe.</p>
+      </div>
+
+      <aside class="card panel" aria-labelledby="ficha-title">
+        <h3 class="card__title" id="ficha-title" data-i18n="about.sheetTitle">Ficha do jogador</h3>
+        <dl class="sheet">
+          <div><dt data-i18n="sheet.class">Classe</dt><dd data-i18n="sheet.classValue">Dev back-end</dd></div>
+          <div><dt data-i18n="sheet.level">Nível</dt><dd data-i18n="sheet.levelValue">Júnior · 2º semestre</dd></div>
+          <div><dt data-i18n="sheet.base">Base</dt><dd>São Paulo, Brasil</dd></div>
+          <div><dt data-i18n="sheet.langs">Idiomas</dt><dd data-i18n="sheet.langsValue">Português (nativo) · Inglês técnico</dd></div>
+          <div><dt data-i18n="sheet.status">Status</dt><dd class="sheet__ok" data-i18n="sheet.statusValue">Disponível para estágio</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Fase 3  -->
+  <section class="section" id="skills" tabindex="-1" aria-labelledby="skills-title">
+    <p class="phase"><span class="phase__num" data-stage="3">Fase 3</span><span class="phase__label" data-i18n="phase.skills">Atributos</span></p>
+    <h2 class="section__title" id="skills-title" data-i18n="skills.title">O que eu já sei usar</h2>
+    <p class="section__lead" data-i18n="skills.lead">Níveis de 1 a 5, medidos com honestidade: 1 é “já estudei”, 3 é “uso sozinho em projeto”, 5 é “domino e explico para outra pessoa”.</p>
+
+    <div class="stats" id="stats"></div>
+
+    <p class="legend">
+      <span class="legend__item"><span class="pips" aria-hidden="true"><i class="pip is-on"></i><i class="pip"></i><i class="pip"></i><i class="pip"></i><i class="pip"></i></span><span data-i18n="skills.legend1">Lv. 1 · estudando</span></span>
+      <span class="legend__item"><span class="pips" aria-hidden="true"><i class="pip is-on"></i><i class="pip is-on"></i><i class="pip is-on"></i><i class="pip"></i><i class="pip"></i></span><span data-i18n="skills.legend3">Lv. 3 · uso em projeto</span></span>
+      <span class="legend__item"><span class="pips" aria-hidden="true"><i class="pip is-on"></i><i class="pip is-on"></i><i class="pip is-on"></i><i class="pip is-on"></i><i class="pip is-on"></i></span><span data-i18n="skills.legend5">Lv. 5 · domino</span></span>
+    </p>
+  </section>
+
+  <!-- Fase 4  -->
+  <section class="section" id="missoes" tabindex="-1" aria-labelledby="missoes-title">
+    <p class="phase"><span class="phase__num" data-stage="4">Fase 4</span><span class="phase__label" data-i18n="phase.projects">Missões</span></p>
+    <h2 class="section__title" id="missoes-title" data-i18n="projects.title">Projetos que eu levei até o fim</h2>
+
+    <h3 class="group__title" data-i18n="projects.mainTitle">Missões principais</h3>
+    <div class="quests" id="quests-featured"></div>
+
+    <section class="side" id="side-quests" aria-labelledby="side-title" hidden>
+      <h3 class="group__title" id="side-title" data-i18n="projects.sideTitle">Missões secundárias</h3>
+      <p class="section__lead" data-i18n="projects.sideLead">Repositórios públicos, direto do GitHub, dos mais recentes para os mais antigos.</p>
+      <div class="quests quests--compact" id="quests-repos"></div>
+    </section>
+
+    <p class="repos-status" id="repos-status" role="status"></p>
+
+    <p class="more">
+      <a class="btn btn--ghost" href="https://github.com/DutraBrun0" target="_blank" rel="noopener">
+        <span data-i18n="projects.allRepos">Ver tudo no GitHub</span>
+        <span aria-hidden="true">↗</span>
+      </a>
+    </p>
+  </section>
+
+  <!--  Fase 5  -->
+  <section class="section" id="jornada" tabindex="-1" aria-labelledby="jornada-title">
+    <p class="phase"><span class="phase__num" data-stage="5">Fase 5</span><span class="phase__label" data-i18n="phase.journey">Jornada</span></p>
+    <h2 class="section__title" id="jornada-title" data-i18n="journey.title">Experiência e formação</h2>
+
+    <ol class="log">
+      <li class="log__item">
+        <p class="log__when"><time datetime="2026-09">set. 2026</time> — <span data-i18n="journey.now">atual</span></p>
+        <h3 class="log__what" data-i18n="journey.job1Role">Jovem Aprendiz Administrativo</h3>
+        <p class="log__where">Tragetta · São Paulo</p>
+        <ul class="log__bullets">
+          <li data-i18n="journey.job1b1">Suporte às rotinas administrativas do setor, da entrada da demanda à conclusão.</li>
+          <li data-i18n="journey.job1b2">Acompanhamento e emissão dos relatórios usados no controle das atividades internas.</li>
+          <li data-i18n="journey.job1b3">Organização de arquivos e documentos, deixando a informação fácil de achar.</li>
+        </ul>
+      </li>
+
+      <li class="log__item">
+        <p class="log__when"><time datetime="2026-03">2026</time> — <time datetime="2029-12">2029</time></p>
+        <h3 class="log__what" data-i18n="journey.edu1">Bacharelado em Engenharia de Software</h3>
+        <p class="log__where">Universidade Cidade de São Paulo (UNICID) · <span data-i18n="journey.edu1Note">cursando, 2º semestre</span></p>
+      </li>
+
+      <li class="log__item">
+        <p class="log__when"><time datetime="2024-01">2024</time> — <time datetime="2025-12">2025</time></p>
+        <h3 class="log__what" data-i18n="journey.edu2">Técnico em Análise e Desenvolvimento de Sistemas</h3>
+        <p class="log__where">SENAI São Paulo · <span data-i18n="journey.edu2Note">concluído</span></p>
+      </li>
+    </ol>
+
+    <div class="card panel badges">
+      <h3 class="card__title" data-i18n="journey.certsTitle">Conquistas</h3>
+      <ul class="badges__list">
+        <li>Python Essentials 1 — Cisco Networking Academy</li>
+        <li>Python Essentials 2 — Cisco Networking Academy</li>
+        <li><span data-i18n="journey.cert3">Conceitos Básicos de Redes</span> — Cisco Networking Academy</li>
+        <li><span data-i18n="journey.cert4">Git e GitHub</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!--  Fase 6  -->
+  <section class="section" id="contato" tabindex="-1" aria-labelledby="contato-title">
+    <p class="phase"><span class="phase__num" data-stage="6">Fase 6</span><span class="phase__label" data-i18n="phase.contact">Contato</span></p>
+    <h2 class="section__title" id="contato-title" data-i18n="contact.title">Bora conversar</h2>
+    <p class="section__lead" data-i18n="contact.lead">Procuro um estágio em desenvolvimento, de preferência back-end. Respondo e-mail no mesmo dia.</p>
+
+    <ul class="contact">
+      <li>
+        <a class="contact__card panel" href="mailto:bruno.dutra5546@gmail.com">
+          <span class="contact__icon" aria-hidden="true">✉</span>
+          <span class="contact__k">E-mail</span>
+          <span class="contact__v">bruno.dutra5546@gmail.com</span>
+        </a>
+      </li>
+      <li>
+        <a class="contact__card panel" href="https://www.linkedin.com/in/brunodutraaa" target="_blank" rel="noopener">
+          <span class="contact__icon" aria-hidden="true">in</span>
+          <span class="contact__k">LinkedIn</span>
+          <span class="contact__v">/in/brunodutraaa</span>
+        </a>
+      </li>
+      <li>
+        <a class="contact__card panel" href="https://github.com/DutraBrun0" target="_blank" rel="noopener">
+          <span class="contact__icon" aria-hidden="true">&lt;/&gt;</span>
+          <span class="contact__k">GitHub</span>
+          <span class="contact__v">/DutraBrun0</span>
+        </a>
+      </li>
+    </ul>
+
+    <p class="more">
+      <a class="btn btn--amber btn--lg" href="assets/cv/Curriculo-Bruno-Dutra.pdf" download>
+        <span aria-hidden="true">▼</span>
+        <span data-i18n="cta.cvLong">Baixar currículo em PDF</span>
+      </a>
+    </p>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>Bruno Moreira Dutra · <span id="year">2026</span></p>
+  <p class="footer__note" data-i18n="footer.note">Feito à mão com HTML, CSS e JavaScript puro.</p>
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="js/content.js" defer></script>
+<script src="js/i18n.js" defer></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>
