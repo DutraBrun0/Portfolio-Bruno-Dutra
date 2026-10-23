@@ -91,7 +91,6 @@ portfolio_bruno_dutra/
 │   ├── cv/
 │   ├── favicon.svg
 │   └── og-image.png
-├── .nojekyll
 └── README.md
 ```
 
