@@ -1,210 +1,95 @@
-# Portfólio — Bruno Moreira Dutra
+🎮 Bruno Moreira Dutra | Portfólio
 
-Portfólio pessoal em HTML, CSS e JavaScript puro, sem build e sem dependências.
-Tema de videogame retrô (menu de RPG), bilíngue PT-BR/EN, pronto para o GitHub Pages.
+<p align="center">
+<strong>Desenvolvedor em constante evolução, transformando ideias em projetos.</strong>
+</p>
 
-**Demo:** https://dutrabrun0.github.io/portfolio/
+<p align="center">
+<a href="https://portfoliobrunodutra.vercel.app/">
+<img src="https://img.shields.io/badge/🌐_Acessar_Portfólio-5AF78E?style=for-the-badge&labelColor=0B0F14" alt="Acessar portfólio">
+</a>
+<a href="https://github.com/DutraBrun0">
+<img src="https://img.shields.io/badge/GitHub-DutraBrun0-181717?style=for-the-badge&logo=github" alt="GitHub">
+</a>
+</p>
 
----
+👨‍💻 Sobre o projeto
 
-## Estrutura
+Este repositório contém meu portfólio pessoal, desenvolvido para apresentar meus projetos, habilidades e minha evolução na área de tecnologia.
 
-```
-portfolio/
-├─ index.html                     # todo o conteúdo (PT-BR é o padrão, bom para SEO)
-├─ css/
-│  └─ style.css                   # tema, layout e responsividade
-├─ js/
-│  ├─ content.js                  # ← dados que você edita: skills e projetos em destaque
-│  ├─ i18n.js                     # ← textos em português e inglês
-│  └─ app.js                      # comportamento (intro, idioma, GitHub, menu, easter egg)
-├─ assets/
-│  ├─ favicon.svg                 # ícone da aba
-│  ├─ og-image.png                # imagem de link (1200×630)
-│  └─ cv/
-│     └─ Curriculo-Bruno-Dutra.pdf  # arquivo do botão "Baixar CV"
-├─ .nojekyll                      # faz o GitHub Pages servir os arquivos como estão
-└─ README.md
-```
+A interface foi inspirada na estética dos videogames retrô, combinando elementos de RPG, visual pixelado e uma navegação interativa para criar uma experiência diferente e envolvente.
 
----
+O objetivo é reunir meus principais projetos em um só lugar, compartilhar meu aprendizado e facilitar o contato com recrutadores, desenvolvedores e pessoas interessadas no meu trabalho.
 
-## Rodar na sua máquina
+✨ Funcionalidades
+🎮 Interface retrô: experiência visual inspirada em menus de RPG e jogos clássicos.
+🌎 Multilíngue: conteúdo disponível em português e inglês.
+🧩 Projetos em destaque: apresentação dos principais projetos e das tecnologias utilizadas.
+🐙 Integração com GitHub: exibição dinâmica de repositórios públicos.
+📄 Currículo para download: acesso ao meu currículo em PDF.
+📱 Design responsivo: adaptação a diferentes tamanhos de tela.
+♿ Acessibilidade: navegação por teclado, foco visível e suporte à preferência por movimento reduzido.
+🕹️ Elementos interativos: introdução temática, animações e um easter egg inspirado no universo dos games.
+🛠️ Tecnologias utilizadas
+Tecnologia	Aplicação
+HTML5	Estrutura e conteúdo
+CSS3	Estilização, layout, animações e responsividade
+JavaScript	Interatividade, troca de idiomas e integração com a API do GitHub
+Git e GitHub	Versionamento e gerenciamento do código
+Vercel	Hospedagem e publicação do portfólio
+🚀 Acesse o portfólio
 
-Abrir o `index.html` com dois cliques funciona, mas a busca de repositórios no
-GitHub e o `sessionStorage` se comportam melhor em um servidor local:
+Confira o projeto publicado:
 
-```bash
-# Python (já instalado na maioria das máquinas)
+portfoliobrunodutra.vercel.app
+
+A versão em inglês também pode ser acessada adicionando ?lang=en ao endereço do portfólio.
+
+💻 Executando localmente
+
+Como o projeto utiliza HTML, CSS e JavaScript puro, não é necessário instalar frameworks ou dependências.
+
+Clone o repositório:
+git clone https://github.com/DutraBrun0/portfolio_bruno_dutra.git
+
+Entre na pasta do projeto:
+cd portfolio_bruno_dutra
+
+Abra o arquivo index.html no navegador ou inicie um servidor local:
 python -m http.server 8000
-```
 
-Depois abra `http://localhost:8000`.
+Acesse http://localhost:8000.
+📂 Estrutura do projeto
+portfolio_bruno_dutra/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── app.js
+│   ├── content.js
+│   └── i18n.js
+├── assets/
+│   ├── cv/
+│   ├── favicon.svg
+│   └── og-image.png
+├── .nojekyll
+└── README.md
 
-No VS Code, a extensão **Live Server** faz a mesma coisa com um clique.
+🎯 Objetivos
 
----
+Este projeto também faz parte da minha jornada de aprendizado e desenvolvimento profissional. Por meio dele, busco aprimorar minhas habilidades em desenvolvimento web, organização de código, experiência do usuário, acessibilidade e integração com serviços externos.
 
-## Deploy no GitHub Pages
+O portfólio continuará evoluindo conforme eu desenvolver novos projetos e adquirir conhecimentos.
 
-### Opção A — repositório de projeto (`.../portfolio`)
+📬 Contato
 
-1. Crie um repositório público chamado `portfolio` na sua conta.
-2. Suba os arquivos:
-   ```bash
-   git init
-   git add .
-   git commit -m "Portfólio"
-   git branch -M main
-   git remote add origin https://github.com/DutraBrun0/portfolio.git
-   git push -u origin main
-   ```
-3. No GitHub: **Settings → Pages → Build and deployment**
-   → Source: `Deploy from a branch`
-   → Branch: `main`, pasta `/ (root)` → **Save**.
-4. Em um ou dois minutos o site fica em `https://dutrabrun0.github.io/portfolio/`.
+Quer conhecer melhor meu trabalho ou trocar ideias sobre tecnologia?
 
-### Opção B — site principal da conta (`dutrabrun0.github.io`)
+GitHub: @DutraBrun0
+Portfólio: portfoliobrunodutra.vercel.app
 
-Mesmos passos, mas o repositório precisa se chamar exatamente
-`DutraBrun0.github.io`. O endereço fica `https://dutrabrun0.github.io/`.
-
-### Depois do primeiro deploy
-
-Troque o endereço nas três linhas do `index.html` que apontam para o site, para
-o link do WhatsApp/LinkedIn mostrar o título e a imagem certos:
-
-```html
-<link rel="canonical" href="https://dutrabrun0.github.io/portfolio/">
-<meta property="og:url"   content="https://dutrabrun0.github.io/portfolio/">
-<meta property="og:image" content="https://dutrabrun0.github.io/portfolio/assets/og-image.png">
-```
-
-Dá para conferir como o link aparece em https://www.opengraph.xyz.
-
----
-
-## Como editar o conteúdo
-
-### Trocar o currículo
-
-Substitua `assets/cv/Curriculo-Bruno-Dutra.pdf` por um PDF com **o mesmo nome**.
-Se mudar o nome do arquivo, atualize os dois links `href="assets/cv/..."` no
-`index.html` (um no topo, outro no fim da página).
-
-### Skills (atributos)
-
-Em `js/content.js`, no bloco `stats`. Cada item tem um nome e um nível de 1 a 5:
-
-```js
-{ name: 'Python', lv: 4 },
-{ name: { pt: 'Testes automatizados', en: 'Automated testing' }, lv: 2 },
-```
-
-O nome pode ser um texto só (igual nos dois idiomas) ou um objeto `{ pt, en }`.
-Para criar um grupo novo, copie um bloco inteiro de `group` + `items`.
-
-### Projetos em destaque (missões principais)
-
-Ainda em `js/content.js`, no bloco `featured`:
-
-```js
-{
-  name: 'ProdManager',      // título que aparece no card
-  repo: 'ProdManager',      // nome do repositório no GitHub (o link é montado sozinho)
-  demo: '',                 // link da demo online; deixe '' se não tiver
-  rare: true,               // true mostra a tag rosa "item raro"
-  desc: { pt: '...', en: '...' },
-  loot: ['Python', 'Flask', 'MySQL']   // tecnologias usadas
-}
-```
-
-### Demais repositórios (missões secundárias)
-
-São buscados na API pública do GitHub a cada visita, usando o usuário definido
-em `js/content.js`:
-
-```js
-github: 'DutraBrun0',
-maxRepos: 6,
-```
-
-Forks, repositórios arquivados e os que já estão em destaque ficam de fora, e a
-ordem é do push mais recente para o mais antigo. **Se a API falhar ou estourar o
-limite de requisições** (60 por hora por IP, sem login), a seção some sozinha e a
-página continua mostrando as missões principais, com um aviso discreto.
-
-Para um repositório aparecer bem aqui, escreva a descrição dele no GitHub — é o
-texto que o card mostra.
-
-### Textos da página
-
-Toda frase está em `js/i18n.js`, nos blocos `pt` e `en`, com a mesma chave.
-A versão em português também está escrita no `index.html` (é o que o Google lê e o
-que aparece se o JavaScript não carregar), então **ao mudar uma frase em português,
-mude nos dois lugares** — procure pelo `data-i18n="chave"` correspondente.
-
-Exemplo: para mudar o texto da caixa de diálogo do topo, edite
-`'hero.pitch'` no `js/i18n.js` e o `<p id="hero-dialogue">` no `index.html`.
-
-### Idioma padrão
-
-O site abre em português e guarda a escolha do visitante no `localStorage`.
-
-Para mandar o link já em inglês, use `?lang=en`:
-`https://dutrabrun0.github.io/portfolio/?lang=en`.
-
-Para abrir no idioma do navegador, troque a linha em `js/app.js` (função `init`)
-pela que está no comentário logo acima dela.
-
-### Cores
-
-Todas as cores são variáveis no topo do `css/style.css`, em `:root`.
-Se trocar `--line`, troque também o `fill='%23243040'` dentro de `--frame` —
-é o SVG que desenha as molduras pixeladas de cantos chanfrados.
-
-### Imagem de link (Open Graph)
-
-`assets/og-image.png` precisa ter 1200×630. Qualquer editor serve; use o fundo
-`#0B0F14` e o verde `#5AF78E` para manter a identidade.
-
----
-
-## O que a intro faz
-
-Na **primeira visita de cada sessão**, a página abre numa tela de título com o
-nome em pixel e "Pressione START" piscando.
-
-- Sai sozinha depois de **3 segundos**, sem ninguém tocar em nada.
-- Enter, Espaço, Esc, clique ou toque passam na hora; há um botão **Pular intro**
-  navegável por teclado.
-- Nas visitas seguintes da mesma sessão (`sessionStorage`), a página abre direto no Hero.
-- Quem chega por um link com âncora (`...#missoes`) não vê a intro.
-- Com **`prefers-reduced-motion`** ligado no sistema, não há intro, nem texto
-  digitado, nem animação nenhuma.
-- Todo o conteúdo já está no HTML desde o começo: a intro é só uma camada por
-  cima, então buscadores e leitores de tela não dependem dela.
-
-Ao terminar, o foco do teclado vai para o Hero.
-
-**Easter egg:** digite o Konami Code (↑ ↑ ↓ ↓ ← → ← → B A) em qualquer lugar da
-página para desbloquear uma conquista.
-
----
-
-## Acessibilidade e performance
-
-- Contraste AA em todos os textos (texto escuro sobre os botões verde e âmbar).
-- Navegação por teclado completa, com foco visível em âmbar.
-- Níveis de skill têm rótulo para leitor de tela ("Nível 4 de 5"), não só os quadradinhos.
-- Enquanto a intro está na tela, o resto da página fica `inert` — o Tab não escapa para trás dela.
-- Sem framework, sem imagem pesada: só duas fontes do Google Fonts, um CSS e três JS pequenos.
-- Animações todas desligadas com `prefers-reduced-motion: reduce`.
-
----
-### Link para o portfólio: https://portfoliobrunodutra.vercel.app/
-## Créditos
-
-Fontes: [Silkscreen](https://fonts.google.com/specimen/Silkscreen) (títulos e UI) e
-[IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) (corpo do texto),
-via Google Fonts.
+<p align="center">
+Desenvolvido por <strong>Bruno Moreira Dutra</strong> 💚
+<br>
+<sub>Um projeto de cada vez. Uma evolução a cada commit.</sub>
+</p>
