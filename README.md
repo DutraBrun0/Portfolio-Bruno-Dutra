@@ -202,7 +202,7 @@ página para desbloquear uma conquista.
 - Animações todas desligadas com `prefers-reduced-motion: reduce`.
 
 ---
-
+### Link para o portfólio: https://portfoliobrunodutra.vercel.app/
 ## Créditos
 
 Fontes: [Silkscreen](https://fonts.google.com/specimen/Silkscreen) (títulos e UI) e
