@@ -1,4 +1,4 @@
-<h1 align="center">🎮 Bruno Moreira Dutra | Portfólio</h1>
+<h1 align="center"> Portfólio Bruno Moreira Dutra </h1>
 
 <p align="center">
   <strong>Desenvolvedor em constante evolução, transformando ideias em projetos.</strong>
