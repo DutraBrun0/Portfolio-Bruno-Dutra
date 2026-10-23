@@ -15,7 +15,7 @@
 
 ---
 
-## 👨‍💻 Sobre o projeto
+##  Sobre o projeto
 
 Este repositório contém meu portfólio pessoal, desenvolvido para apresentar meus projetos, habilidades e minha evolução na área de tecnologia.
 
@@ -23,18 +23,18 @@ A interface foi inspirada na estética dos videogames retrô, combinando element
 
 O objetivo é reunir meus principais projetos em um só lugar, compartilhar meu aprendizado e facilitar o contato com recrutadores, desenvolvedores e pessoas interessadas no meu trabalho.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
-- 🎮 **Interface retrô:** experiência visual inspirada em menus de RPG e jogos clássicos.
-- 🌎 **Multilíngue:** conteúdo disponível em português e inglês.
-- 🧩 **Projetos em destaque:** apresentação dos principais projetos e das tecnologias utilizadas.
-- 🐙 **Integração com GitHub:** exibição dinâmica de repositórios públicos.
-- 📄 **Currículo para download:** acesso ao currículo em PDF.
-- 📱 **Design responsivo:** adaptação a diferentes tamanhos de tela.
-- ♿ **Acessibilidade:** navegação por teclado, foco visível e suporte à preferência por movimento reduzido.
-- 🕹️ **Elementos interativos:** introdução temática, animações e um easter egg inspirado no universo dos games.
+-  **Interface retrô:** experiência visual inspirada em menus de RPG e jogos clássicos.
+-  **Multilíngue:** conteúdo disponível em português e inglês.
+-  **Projetos em destaque:** apresentação dos principais projetos e das tecnologias utilizadas.
+-  **Integração com GitHub:** exibição dinâmica de repositórios públicos.
+-  **Currículo para download:** acesso ao currículo em PDF.
+-  **Design responsivo:** adaptação a diferentes tamanhos de tela.
+-  **Acessibilidade:** navegação por teclado, foco visível e suporte à preferência por movimento reduzido.
+-  **Elementos interativos:** introdução temática, animações e um easter egg inspirado no universo dos games.
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 | Tecnologia | Aplicação |
 | --- | --- |
@@ -44,13 +44,13 @@ O objetivo é reunir meus principais projetos em um só lugar, compartilhar meu 
 | **Git e GitHub** | Versionamento e gerenciamento do código |
 | **Vercel** | Hospedagem e publicação do portfólio |
 
-## 🚀 Acesse o portfólio
+##  Acesse o portfólio
 
 Confira o projeto publicado: **[portfoliobrunodutra.vercel.app](https://portfoliobrunodutra.vercel.app/)**
 
 A versão em inglês está disponível em [portfoliobrunodutra.vercel.app/?lang=en](https://portfoliobrunodutra.vercel.app/?lang=en).
 
-## 💻 Executando localmente
+##  Executando localmente
 
 Como o projeto usa HTML, CSS e JavaScript puro, não é necessário instalar frameworks nem dependências.
 
@@ -74,9 +74,9 @@ Como o projeto usa HTML, CSS e JavaScript puro, não é necessário instalar fra
 
 4. Acesse [http://localhost:8000](http://localhost:8000).
 
-> 💡 Usar um servidor local é recomendado, já que alguns navegadores bloqueiam requisições (como a da API do GitHub) quando o arquivo é aberto direto pelo sistema de arquivos.
+>  Usar um servidor local é recomendado, já que alguns navegadores bloqueiam requisições (como a da API do GitHub) quando o arquivo é aberto direto pelo sistema de arquivos.
 
-## 📂 Estrutura do projeto
+##  Estrutura do projeto
 
 ```text
 portfolio_bruno_dutra/
@@ -95,13 +95,13 @@ portfolio_bruno_dutra/
 └── README.md
 ```
 
-## 🎯 Objetivos
+##  Objetivos
 
 Este projeto também faz parte da minha jornada de aprendizado e desenvolvimento profissional. Com ele, busco aprimorar minhas habilidades em desenvolvimento web, organização de código, experiência do usuário, acessibilidade e integração com serviços externos.
 
 O portfólio continuará evoluindo conforme eu desenvolver novos projetos e adquirir novos conhecimentos.
 
-## 📬 Contato
+##  Contato
 
 Quer conhecer melhor meu trabalho ou trocar ideias sobre tecnologia?
 
@@ -111,7 +111,7 @@ Quer conhecer melhor meu trabalho ou trocar ideias sobre tecnologia?
 ---
 
 <p align="center">
-  Desenvolvido por <strong>Bruno Moreira Dutra</strong> 💚
+  Desenvolvido por <strong>Bruno Moreira Dutra</strong> 
   <br>
   <sub>Um projeto de cada vez. Uma evolução a cada commit.</sub>
 </p>
